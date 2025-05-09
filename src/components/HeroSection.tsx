@@ -1,14 +1,11 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-blue-50 to-white">
+  return <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-blue-50 to-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="max-w-xl space-y-6">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-primary-DEFAULT">
                 PROBITAS <span className="text-primary">Experts</span>
                 <span className="text-2xl md:text-3xl font-medium text-gray-700 italic mt-2 block">
                   To Build The Trust
@@ -30,11 +27,7 @@ const HeroSection = () => {
           </div>
           <div className="order-1 md:order-2 flex justify-center md:justify-end">
             <div className="relative h-64 sm:h-80 md:h-96 aspect-square rounded-xl overflow-hidden shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1460574283810-2aab119d8511"
-                alt="Modern Real Estate Building"
-                className="w-full h-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1460574283810-2aab119d8511" alt="Modern Real Estate Building" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-primary opacity-10"></div>
             </div>
           </div>
@@ -77,8 +70,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
