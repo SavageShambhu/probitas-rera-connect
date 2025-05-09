@@ -5,9 +5,9 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="max-w-xl space-y-6">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-primary-DEFAULT">
-                PROBITAS <span className="text-primary">Experts</span>
-                <span className="text-2xl md:text-3xl font-medium text-gray-700 italic mt-2 block">
+              <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-primary-DEFAULT md:text-7xl">
+                PROBITAS <span className="text-primary"></span>
+                <span className="text-2xl md:text-3xl font-medium italic mt-2 block text-primary-DEFAULT">
                   To Build The Trust
                 </span>
               </h1>
