@@ -40,7 +40,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <span className="text-primary text-2xl font-bold font-heading">Probitas</span>
+              <img 
+                src="/lovable-uploads/d6e8120c-4fd3-43d0-9a1e-bfc86d2df53b.png" 
+                alt="Probitas Logo" 
+                className="h-12 md:h-14"
+              />
             </a>
           </div>
 

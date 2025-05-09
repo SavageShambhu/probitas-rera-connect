@@ -9,7 +9,7 @@ const HeroSection = () => {
           <div className="order-2 md:order-1">
             <div className="max-w-xl space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                <span className="text-primary block">Probitas</span>
+                RERA Consultancy <span className="text-primary">Experts</span>
                 <span className="text-2xl md:text-3xl font-medium text-gray-700 italic mt-2 block">
                   To Build The Trust
                 </span>
