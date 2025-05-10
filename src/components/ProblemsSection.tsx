@@ -6,7 +6,7 @@ const ProblemsSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Problems We <span className="text-primary">Solve</span></h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Understanding the key challenges faced by RERA-registered projects
+            Understanding the key challenges faced by builders in the RERA registration process
           </p>
         </div>
         
@@ -28,10 +28,10 @@ const ProblemsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Delayed Response Times</h3>
+                  <h3 className="text-xl font-bold mb-2">Complex Registration Process</h3>
                   <p className="text-gray-700">
-                    1 in 10 RERA-registered projects faces significant delays in getting responses from the authority due to 
-                    complex bureaucratic procedures.
+                    Many builders struggle to navigate RERA's intricate procedures, leading to 
+                    registration delays and unnecessary costs.
                   </p>
                 </div>
               </div>
@@ -45,9 +45,10 @@ const ProblemsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Unqualified Intermediaries</h3>
+                  <h3 className="text-xl font-bold mb-2">Lack of Expert Support</h3>
                   <p className="text-gray-700">
-                    Builders often rely on SROs and agents who lack specialized knowledge, resulting in application errors and further delays.
+                    Small and medium builders often rely on third-party agents who lack specialized knowledge, 
+                    resulting in application errors and costly revisions.
                   </p>
                 </div>
               </div>
@@ -61,9 +62,10 @@ const ProblemsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">High And Variable Costs</h3>
+                  <h3 className="text-xl font-bold mb-2">Unpredictable Pricing & Timelines</h3>
                   <p className="text-gray-700">
-                    Private agents charge unpredictable and often excessive fees without delivering consistent results or maintaining accountability.
+                    Traditional consultancies charge variable, often excessive fees without 
+                    transparent timelines, creating budgeting challenges and project delays.
                   </p>
                 </div>
               </div>
@@ -75,9 +77,10 @@ const ProblemsSection = () => {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">The Industry Challenge</h3>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              The real estate industry struggles with navigating the complex RERA compliance processes, 
-              leading to project delays, financial losses, and damaged reputation. Without proper guidance, 
-              these challenges continue to impact the success of your development projects.
+              The real estate industry needs a dedicated partner who understands RERA's complexities and 
+              can provide reliable, transparent services. Without proper guidance, 
+              these challenges continue to impact the success and timeline of development projects, 
+              costing builders both time and money.
             </p>
           </div>
         </div>

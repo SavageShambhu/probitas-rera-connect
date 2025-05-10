@@ -7,8 +7,12 @@ const faqs = [
     answer: "MahaRERA (Maharashtra Real Estate Regulatory Authority) is a regulatory body established under the Real Estate (Regulation and Development) Act, 2016. Any real estate project in Maharashtra above 500 square meters or with more than 8 apartments must be registered with MahaRERA before being marketed or sold."
   },
   {
-    question: "How long does the MahaRERA registration process typically take?",
-    answer: "The standard MahaRERA registration process can take anywhere from 30-60 days depending on the complexity of the project and completeness of documentation. With Probitas' expertise, we can often expedite this timeline significantly."
+    question: "How does your client-employee model work?",
+    answer: "At Probitas, we assign a dedicated employee to each client project. This employee becomes your single point of contact throughout the RERA registration process. They handle document review, form submission, tracking, and communication with RERA authorities on your behalf, ensuring consistent, accountable service."
+  },
+  {
+    question: "Can you explain your tiered pricing model?",
+    answer: "We offer three pricing tiers: Basic (one-time service for a single project), Standard (subscription for up to 3 projects with regular tracking), and Premium (unlimited projects for larger firms with priority support and detailed reporting). Each tier is designed to accommodate different business sizes and project volumes with transparent, predictable pricing."
   },
   {
     question: "What documents are required for MahaRERA registration?",
@@ -24,15 +28,11 @@ const faqs = [
   },
   {
     question: "How is Probitas different from other RERA consultants?",
-    answer: "Probitas employs salaried regional experts rather than commission-based agents. We provide direct authority assistance, eliminating inefficient intermediaries. Our fixed, transparent fee structure and accountability for results set us apart from traditional consultants."
+    answer: "Probitas employs salaried regional experts rather than commission-based agents. We provide direct authority assistance, eliminating inefficient intermediaries. Our fixed, transparent fee structure, dedicated employee model, and accountability for results set us apart from traditional consultants."
   },
   {
     question: "Do you handle RERA compliance for ongoing projects?",
     answer: "Yes, we provide comprehensive support for ongoing projects including quarterly updates, annual renewals, and addressing any compliance issues that may arise during the project lifecycle."
-  },
-  {
-    question: "What regions does Probitas cover for RERA consultancy?",
-    answer: "We currently cover all regions under the MahaRERA jurisdiction in Maharashtra, with specialized regional teams familiar with local offices and procedures."
   }
 ];
 
@@ -47,9 +47,9 @@ const FaqSection = () => {
     <section id="faqs" className="section-padding section-spacing bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4"><span className="text-primary">FAQ</span>s About RERA Support</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4"><span className="text-primary">FAQ</span>s About Our Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Common questions about RERA compliance and our services
+            Common questions about RERA compliance and our client-focused approach
           </p>
         </div>
         

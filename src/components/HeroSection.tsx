@@ -14,13 +14,14 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-700 mt-4">
-                Bridging builders and government for MahaRERA registered projects with expert support, 
-                faster query resolution, and elimination of inefficient intermediaries.
+                Your complete RERA registration solution - bridging builders and government with expert support,
+                dedicated project management, and transparent pricing.
               </p>
               <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                <li>Streamlined RERA registration for builders and developers</li>
-                <li>Dedicated employee support for each client project</li>
-                <li>Tiered pricing models for businesses of all sizes</li>
+                <li>Seamless RERA registration with minimal client involvement</li>
+                <li>Dedicated employee assigned to each client project</li>
+                <li>Flexible tiered pricing for businesses of all sizes</li>
+                <li>Direct government access eliminating intermediaries</li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-primary hover:bg-primary-light text-lg py-6 px-8">
@@ -44,7 +45,7 @@ const HeroSection = () => {
       {/* Trust indicators */}
       <div className="container mx-auto px-4 md:px-8 mt-16">
         <div className="bg-white rounded-xl shadow-custom p-6 md:p-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="flex flex-col items-center">
               <div className="bg-blue-50 rounded-full p-4 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -71,8 +72,18 @@ const HeroSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-xl mb-2">Cost Effective</h3>
-              <p className="text-gray-600">Fixed, affordable percentage fees saving you money</p>
+              <h3 className="font-bold text-xl mb-2">Tiered Pricing</h3>
+              <p className="text-gray-600">Flexible packages for projects of any size</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="bg-blue-50 rounded-full p-4 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-xl mb-2">Direct Communication</h3>
+              <p className="text-gray-600">Real-time updates and dedicated support</p>
             </div>
           </div>
         </div>
