@@ -1,13 +1,15 @@
+
 import { Button } from "@/components/ui/button";
+
 const HeroSection = () => {
   return <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-blue-50 to-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="max-w-xl space-y-6">
-              <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-primary-DEFAULT md:text-7xl">
-                PROBITAS <span className="text-primary"></span>
-                <span className="text-2xl md:text-3xl font-medium italic mt-2 block text-primary-DEFAULT">
+              <h1 className="text-6xl lg:text-7xl font-bold leading-tight text-primary md:text-7xl">
+                PROBITAS
+                <span className="text-2xl md:text-3xl font-medium italic mt-2 block text-primary">
                   To Build The Trust
                 </span>
               </h1>
@@ -15,6 +17,11 @@ const HeroSection = () => {
                 Bridging builders and government for MahaRERA registered projects with expert support, 
                 faster query resolution, and elimination of inefficient intermediaries.
               </p>
+              <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                <li>Streamlined RERA registration for builders and developers</li>
+                <li>Dedicated employee support for each client project</li>
+                <li>Tiered pricing models for businesses of all sizes</li>
+              </ul>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-primary hover:bg-primary-light text-lg py-6 px-8">
                   <a href="#contact">Get Started</a>
@@ -72,4 +79,5 @@ const HeroSection = () => {
       </div>
     </section>;
 };
+
 export default HeroSection;
